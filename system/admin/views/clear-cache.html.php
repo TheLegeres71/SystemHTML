@@ -1,4 +1,4 @@
-<?php if (!defined('HTMLY')) die('HTMLy'); ?>
+<?php if (!defined('SYSHTML')) die('HTMLy'); ?>
 <?php
 
 foreach (glob('cache/index/*.txt', GLOB_NOSORT) as $file) {

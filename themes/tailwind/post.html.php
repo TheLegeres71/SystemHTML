@@ -1,4 +1,4 @@
-<?php if (!defined('HTMLY')) die('HTMLy'); ?>
+<?php if (!defined('SYSHTML')) die('HTMLy'); ?>
 <section class="mx-auto max-w-3xl sm:px-6 xl:max-w-5xl xl:px-0">
     <article>
         <div class="xl:divide-y xl:divide-gray-200 xl:dark:divide-gray-700">

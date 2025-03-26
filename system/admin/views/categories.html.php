@@ -1,4 +1,4 @@
-<?php if (!defined('HTMLY')) die('HTMLy'); ?>
+<?php if (!defined('SYSHTML')) die('HTMLy'); ?>
 <?php
 $desc = get_category_info(null);
 ?>

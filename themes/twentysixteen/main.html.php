@@ -1,4 +1,4 @@
-<?php if (!defined('HTMLY')) die('HTMLy'); ?>
+<?php if (!defined('SYSHTML')) die('HTMLy'); ?>
 <?php if (isset($is_category)):?>
     <header class="page-header">
 		<h1 class="page-title"><?php echo i18n('Category');?>: <?php echo $category->title;?></h1>

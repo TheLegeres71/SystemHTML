@@ -1,4 +1,4 @@
-<?php if (!defined('HTMLY')) die('HTMLy'); ?>
+<?php if (!defined('SYSHTML')) die('HTMLy'); ?>
 <?php if (isset($is_category)):?>
     <header class="page-header">
 		<span class="social-navigation feed-link"><a href="<?php echo $category->url;?>/feed"><span class="screen-reader-text">RSS</span></a></span>

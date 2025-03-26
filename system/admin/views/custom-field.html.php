@@ -1,4 +1,4 @@
-<?php if (!defined('HTMLY')) die('HTMLy'); ?>
+<?php if (!defined('SYSHTML')) die('HTMLy'); ?>
 <h2 class="post-index"><?php echo i18n('custom_fields');?></h2>
 <br>
 <p>Custom fields enable users to add extra, specific data fields to their content, allowing for more detailed and flexible content management.</p>

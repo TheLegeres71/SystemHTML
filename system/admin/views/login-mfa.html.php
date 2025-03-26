@@ -1,4 +1,4 @@
-<?php if (!defined('HTMLY')) die('HTMLy'); ?>
+<?php if (!defined('SYSHTML')) die('HTMLy'); ?>
 <?php
 $_SESSION["mfa_uid"] = $username;
 $_SESSION["mfa_pwd"] = $password;

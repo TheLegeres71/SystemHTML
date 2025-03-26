@@ -1,4 +1,4 @@
-<?php if (!defined('HTMLY')) die('HTMLy'); ?>
+<?php if (!defined('SYSHTML')) die('HTMLy'); ?>
 
 <?php if (isset($is_category)):?>
 <div class="row justify-content-center" style="padding-top: 4rem;">

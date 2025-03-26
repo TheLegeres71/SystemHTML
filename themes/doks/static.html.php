@@ -1,4 +1,4 @@
-<?php if (!defined('HTMLY')) die('HTMLy'); ?>
+<?php if (!defined('SYSHTML')) die('HTMLy'); ?>
 <nav class="docs-toc d-none d-xl-block col-xl-3" aria-label="Secondary navigation">
     <div class="page-links">
         <p class="h3">On this page</p>

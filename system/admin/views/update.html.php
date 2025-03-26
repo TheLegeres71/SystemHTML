@@ -1,4 +1,4 @@
-<?php if (!defined('HTMLY')) die('HTMLy'); ?>
+<?php if (!defined('SYSHTML')) die('HTMLy'); ?>
 <?php
  
 use \Kanti\HubUpdater;
@@ -18,13 +18,13 @@ if (defined("JSON_PRETTY_PRINT")) {
     file_put_contents(
         'cache/installedVersion.json',
         json_encode(array(
-            "tag_name" => constant('HTMLY_VERSION')
+            "tag_name" => constant('SYSHTML_VERSION')
         ), JSON_PRETTY_PRINT), LOCK_EX);
 } else {
     file_put_contents(
         'cache/installedVersion.json',
         json_encode(array(
-            "tag_name" => constant('HTMLY_VERSION')
+            "tag_name" => constant('SYSHTML_VERSION')
         )), LOCK_EX
     );
 }

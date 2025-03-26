@@ -1,4 +1,4 @@
-<?php if (!defined('HTMLY')) die('HTMLy'); ?>
+<?php if (!defined('SYSHTML')) die('HTMLy'); ?>
 <article class="page type-page hentry">
     <header class="entry-header">
         <h1 class="entry-title">This page doesn't exist!</h1>

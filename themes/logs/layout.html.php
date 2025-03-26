@@ -1,4 +1,4 @@
-<?php if (!defined('HTMLY')) die('HTMLy'); ?>
+<?php if (!defined('SYSHTML')) die('HTMLy'); ?>
 <!DOCTYPE html>
 <html lang="<?php echo blog_language();?>">
 <head>

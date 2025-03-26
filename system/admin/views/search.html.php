@@ -1,4 +1,4 @@
-<?php if (!defined('HTMLY')) die('HTMLy'); ?>
+<?php if (!defined('SYSHTML')) die('HTMLy'); ?>
 <h2 class="post-index"><?php echo $heading ?></h2>
 <br>
 <?php $search_index = array(); if (!empty($posts)) { ?>

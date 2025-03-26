@@ -1,4 +1,4 @@
-<?php if (!defined('HTMLY')) die('HTMLy'); ?>
+<?php if (!defined('SYSHTML')) die('HTMLy'); ?>
 <h2><?php echo i18n('Add_content');?></h2>
 <?php
 $user = $_SESSION[site_url()]['user'];

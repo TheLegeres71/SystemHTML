@@ -1,5 +1,5 @@
 <?php
-if (!defined('HTMLY')) die('HTMLy');
+if (!defined('SYSHTML')) die('HTMLy');
 
 use PragmaRX\Google2FA\Google2FA;
 

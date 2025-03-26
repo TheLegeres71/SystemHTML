@@ -1,4 +1,4 @@
-<?php if (!defined('HTMLY')) die('HTMLy'); ?>
+<?php if (!defined('SYSHTML')) die('HTMLy'); ?>
 <article class="page type-page hentry">
     <header class="entry-header">
         <?php if (login()) { echo tab($p); } ?>

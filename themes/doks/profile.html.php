@@ -1,4 +1,4 @@
-<?php if (!defined('HTMLY')) die('HTMLy'); ?>
+<?php if (!defined('SYSHTML')) die('HTMLy'); ?>
 <div class="row justify-content-center" style="padding-top: 4rem;">
     <div class="col-md-12 text-center">
         <h1 class="mt-0"><?php echo $author->name;?></h1>

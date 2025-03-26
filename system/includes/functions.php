@@ -1,5 +1,5 @@
 <?php
-if (!defined('HTMLY')) die('HTMLy');
+if (!defined('SYSHTML')) die('HTMLy');
 
 use \Michelf\MarkdownExtra;
 use \Suin\RSSWriter\Feed;
@@ -3611,7 +3611,7 @@ function head_contents()
     $output = '';
     $wmt_id = config('google.wmt.id');
     if (config('show.version') !== 'false') {
-        $version = 'HTMLy ' . constant('HTMLY_VERSION');
+        $version = 'HTMLy ' . constant('SYSHTML_VERSION');
     } else {
         $version = 'HTMLy';
     }

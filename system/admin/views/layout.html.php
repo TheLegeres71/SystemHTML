@@ -1,4 +1,4 @@
-<?php if (!defined('HTMLY')) die('HTMLy'); ?>
+<?php if (!defined('SYSHTML')) die('HTMLy'); ?>
 <!DOCTYPE html>
 <html lang="<?php echo blog_language();?>">
 <head>
@@ -341,7 +341,7 @@ if (isset($author[0])) {
       <small><?php echo i18n('Admin_panel_style_based_on');?> <a rel="nofollow" target="_blank" href="https://github.com/ColorlibHQ/AdminLTE">AdminLTE</a></small>
     </div>
     <!-- Default to the left -->
-    <?php echo i18n('Proudly_powered_by');?> <a href="https://www.htmly.com" target="_blank"><?php echo 'HTMLy ' . constant('HTMLY_VERSION'); ?></a>
+    <?php echo i18n('Proudly_powered_by');?> <a href="https://www.htmly.com" target="_blank"><?php echo 'HTMLy ' . constant('SYSHTML_VERSION'); ?></a>
   </footer>
 </div>
 <!-- ./wrapper -->
